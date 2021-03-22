@@ -1,8 +1,6 @@
 from django.db import models
 
 # Create your models here.
-
-
 class Product(models.Model):
     name = models.CharField('Name', max_length=25, null=True)
 
@@ -40,7 +38,7 @@ class Item(models.Model):
     name = models.CharField('Name', max_length=25, null=True)
     description = models.CharField('Description', max_length=500, null=True)
     price = models.CharField('Price', max_length=10, null=True)
-    subCategory = models.ForeignKey(SubCategory, null=True, on_delete=models.CASCADE)
+    subCategory = models.ManyToManyField(SubCategory, null=True)
     #image
 
     def __str__(self):
