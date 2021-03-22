@@ -4,6 +4,7 @@ Desenvolver o backend de uma loja que possa ser usada para diversos segmentos (A
 # Logic DB
 
     - Sneaker | (Product)
+    
         - Jordan 1 | (Item)
             - Color | (Category)
                 - Black | (SubCategory)
