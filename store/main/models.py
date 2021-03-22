@@ -15,7 +15,6 @@ class Category(models.Model):
     name = models.CharField('Name', max_length=25, null=True)
     product = models.ForeignKey(Product, null=True, on_delete=models.CASCADE)
 
-
     def __str__(self):
         return '{}'.format(self.name)
 
