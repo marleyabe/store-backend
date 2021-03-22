@@ -9,6 +9,7 @@ Desenvolver o backend de uma loja que possa ser usada para diversos segmentos (A
                 - Black | (SubCategory)
             - Size | (Category)
                 - 10,5 | (SubCategory)
+                
         - Air Force 1 | (Item)
             - Color | (Category)
                 - White | (SubCategory)
