@@ -3,14 +3,14 @@ Desenvolver o backend de uma loja que possa ser usada para diversos segmentos (A
 
 # Logic DB
 
-Create a Product
+Create a Product:
     - Sneaker
 
-Create a Category
+Create a Category:
     - Color
     - Size
 
-Create a SubCategory
+Create a SubCategory:
     - Color
         - Black
         - White
@@ -18,7 +18,7 @@ Create a SubCategory
         - 9
         - 10,5
 
-Create a Item
+Create a Item:
     - Jordan 1
     - Air Force 1
 
