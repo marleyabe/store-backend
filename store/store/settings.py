@@ -32,9 +32,15 @@ if DEBUG:
 # Application definition
 
 INSTALLED_APPS = [
+    #my apps
     'main',
     'user',
+
+    #Rest Framework
+    'rest_framework.authtoken',
     'rest_framework',
+
+    #Django Apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
