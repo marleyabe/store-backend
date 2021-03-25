@@ -35,10 +35,9 @@ class SubCategory(models.Model):
 
 class Item(models.Model):
     name = models.CharField('Name', max_length=25, null=True)
-    description = models.CharField('Description', max_length=500, null=True)
+    description = models.TextField('Description', null=True)
     price = models.CharField('Price', max_length=10, null=True)
     subCategory = models.ManyToManyField(SubCategory, null=True)
-    #image
 
     def __str__(self):
         return '{}'.format(self.name)
