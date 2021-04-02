@@ -6,7 +6,7 @@ from main.serializers import ProductSerializer
 
 # Create your views here.
 class ProductViewSet(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated)
 
     queryset = Product.objects.all()
     serializer_class = ProductSerializer

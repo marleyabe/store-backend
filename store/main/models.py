@@ -37,7 +37,7 @@ class Item(models.Model):
     name = models.CharField('Name', max_length=25, null=True)
     description = models.TextField('Description', null=True)
     price = models.CharField('Price', max_length=10, null=True)
-    subCategory = models.ManyToManyField(SubCategory, null=True)
+    sub_category = models.ManyToManyField(SubCategory, null=True)
 
     def __str__(self):
         return '{}'.format(self.name)
